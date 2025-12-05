@@ -27,3 +27,4 @@ public class MyWorld extends World {
         addObject(apple, x, y);
     }
 }
+
