@@ -12,6 +12,22 @@ public class MyWorld extends World {
         createApple();
     }
     
+    public  MyWorld(boolean useBanana){
+        super(600, 400, 1, false);
+        
+        createBanana();
+    }
+    
+    public void createBanana()
+    {
+        Banana banana = new Banana();
+        int x = Greenfoot.getRandomNumber(600);
+        int y = 0;
+        addObject(banana, x, y);
+    }
+        
+    
+    
     public void gameOver() {
         Label gameOverLabel = new Label("Game Over", 100);
         addObject(gameOverLabel, 300, 200);
