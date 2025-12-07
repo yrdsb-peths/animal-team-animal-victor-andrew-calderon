@@ -1,10 +1,11 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
 /**
- * Write a description of class Apple here.
+ * Desc: apple will fall down from random areas of the map, the player must eat/collect them before they fall to the
+   ground, or else the game will end and the player loses.
  * 
- * @author (your name) 
- * @version (a version number or a date)
+ * @author (your name) Andrew
+ * @version (a version number or a date)1.0
  */
 public class Apple extends Actor
 {
