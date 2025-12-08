@@ -21,16 +21,10 @@ public class MyWorld extends World {
     public  MyWorld(boolean useBanana){
         super(600, 400, 1, false);
         
-        createBanana();
+        
     }
     
-    public void createBanana()
-    {
-        Banana banana = new Banana();
-        int x = Greenfoot.getRandomNumber(600);
-        int y = 0;
-        addObject(banana, x, y);
-    }
+    
         
     
     
